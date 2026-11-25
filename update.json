@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "windows": {
+    "version": "0.7.0-beta.5",
+    "url": "https://github.com/storinoz/KoalaWebcam-releases/releases/download/v0.7.0-beta.5/KoalaWebcam-Setup-0.7.0-beta.5.exe",
+    "sha256": "e1c63d716fb727297e9a93544e991b6488b64e72f2d2b69aff24044216e5dab7",
+    "size": 34310685
+  },
+  "android": {
+    "version": "0.7.0-beta.5",
+    "versionCode": 10,
+    "url": "https://github.com/storinoz/KoalaWebcam-releases/releases/download/v0.7.0-beta.5/KoalaWebcam.apk",
+    "sha256": "d7caab16690ec08a75d98778abb5edfb13765d513b30e3d91fd5a5acfcc12853",
+    "size": 991965
+  }
+}
