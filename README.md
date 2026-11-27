@@ -6,6 +6,8 @@ Use a câmera frontal ou traseira do seu Android no computador Windows, por USB 
 
 ## Downloads
 
+**[Abrir a página de downloads do KoalaWebcam](https://storinoz.github.io/KoalaWebcam-releases/)** — logo, versão atual e botões para Windows e Android, atualizados pelo catálogo público.
+
 Baixe os arquivos em **[Releases](https://github.com/storinoz/KoalaWebcam-releases/releases)**. A versão de teste atual é **0.7.0-beta.5**:
 
 - **Windows 10/11 de 64 bits:** `KoalaWebcam-Setup-0.7.0-beta.5.exe`. O instalador permite escolher atalhos no menu Iniciar e na área de trabalho.
