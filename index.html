@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#520da6">
+  <meta name="theme-color" content="#17141d">
   <meta name="description" content="Baixe o KoalaWebcam para Windows e Android. Conecte a câmera do celular ao computador por USB ou Bluetooth.">
   <title>KoalaWebcam — Downloads</title>
   <link rel="icon" href="koalawebcam.png" type="image/png">
+  <script src="theme.js"></script>
   <link rel="stylesheet" href="styles.css">
   <script src="downloads.js" defer></script>
 </head>
@@ -17,10 +18,17 @@
         <img src="koalawebcam.png" width="40" height="40" alt="">
         <span>KoalaWebcam</span>
       </a>
+      <div class="header-actions">
       <a class="repository" href="https://github.com/storinoz/KoalaWebcam-releases" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 4l-4 16"/></svg>
         Repositório <span aria-hidden="true">↗</span>
       </a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ativar tema claro">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 14A8.5 8.5 0 0 1 10 4a8.5 8.5 0 1 0 10 10Z"/></svg>
+        <span id="theme-label">Claro</span>
+      </button>
+      </div>
     </header>
 
     <main>
